@@ -262,15 +262,16 @@ h3{font-family:'STIX Two Text',serif; font-weight:600; font-size:1.18rem; margin
   color:var(--muted); letter-spacing:.03em; border-top:1px solid var(--line);
 }
 .qr-card{
-  display:flex; gap:18px; align-items:center; margin-top:30px;
-  padding:16px 18px; border:1px solid var(--line); border-radius:12px;
-  background:var(--surface); box-shadow:var(--shadow); max-width:400px;
+  display:inline-flex; flex-direction:column; align-items:center; gap:12px;
+  margin-top:30px; padding:20px 22px 16px;
+  border:1px solid var(--line); border-radius:12px;
+  background:var(--surface); box-shadow:var(--shadow);
 }
 .qr-card img{
-  width:120px; height:120px; border-radius:8px; border:1px solid var(--line);
-  background:#fff; padding:6px; flex-shrink:0;
+  width:150px; height:150px; border-radius:8px;
+  background:#fff; padding:8px; display:block;
 }
-.qr-card .meta{display:block; margin-bottom:10px}
+.qr-card .meta{color:var(--accent); letter-spacing:.12em; text-transform:uppercase}
 footer{border-top:1px solid var(--line); margin-top:0}
 .foot-inner{max-width:1060px; margin:0 auto; padding:56px 24px; text-align:left}
 .foot-inner h2{margin-bottom:14px}
@@ -309,11 +310,8 @@ footer{border-top:1px solid var(--line); margin-top:0}
         <a class="btn" href="https://www.linkedin.com/in/sourim-banerjee10" target="_blank" rel="noopener">LinkedIn<span class="arr">&#8599;</span></a>
       </div>
       <div class="qr-card">
-        <img src="images/qr-homepage.png" alt="QR code linking to sourim-banerjee10.github.io">
-        <div>
-          <span class="meta">Scan to open this site</span>
-          <a class="doi-link" href="images/qr-homepage.png" download="sourim-banerjee-website-qr.png">Download PNG</a>
-        </div>
+        <img src="images/qr-homepage.png" alt="QR code linking to this website">
+        <span class="meta">Scan here</span>
       </div>
     </div>
     <div class="map-wrap">
